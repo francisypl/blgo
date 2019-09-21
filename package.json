@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "gatsby": "^2.15.20",
+    "gatsby-plugin-react-svg": "^2.1.2",
     "gatsby-theme-blog": "^1.0.2",
+    "keymirror": "^0.1.1",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "require-all": "^3.0.0"
   }
 }

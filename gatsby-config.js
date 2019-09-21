@@ -4,10 +4,18 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/
+        }
+      }
+    }
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
+    title: `Blgo.`,
     author: `My Name`,
     description: `My site description...`,
     social: [
