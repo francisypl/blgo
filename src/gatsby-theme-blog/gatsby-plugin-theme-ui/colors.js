@@ -19,14 +19,6 @@ export default merge(defaultThemeColors, {
   section: {
     primary: white,
     alternate: offwhite
-  },
-  padding: {
-    xxsmall: '4px',
-    xsmall: '8px',
-    small: '16px',
-    medium: '24px',
-    large: '32px',
-    xlarge: '40px'
   }
   // modes: {
   //   dark: {

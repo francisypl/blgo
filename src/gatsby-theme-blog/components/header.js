@@ -7,15 +7,13 @@ import Icon, { ICONS } from '../../components/Icon';
 import Logo from '../../components/Logo';
 
 export default () => (
-  <Header>
+  <Header sx={{ py: 2 }}>
     <Flex sx={{
       width: '100%',
-      alignItems: 'center'
+      alignItems: 'center',
     }}>
-      <Box sx={{ px: 'padding.small' }}>
-        <Icon name={ ICONS.hamburger } />
-      </Box>
-      <Logo />
+      <Icon sx={{ px: 2 }} name={ ICONS.hamburger } />
+      <Logo sx={{ px: 2 }} />
     </Flex>
   </Header>
 );
